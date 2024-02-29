@@ -12,12 +12,12 @@ namespace Pascal
             int m = 40;
             for (int sor = 0; sor < 10; sor++)
             {
-                for (int oszlop = 0; oszlop < 10; oszlop++)
+                for (int oszlop = 0; oszlop < sor+1; oszlop++)
                 {
                     Button button = new Button();
                     Controls.Add(button);
-                    button.Top = sor*m;
-                    button.Left = oszlop*m;
+                    button.Top = sor * m;
+                    button.Left = oszlop * m - sor * m / 2 + Width / 2;
                     button.Height = m;
                     button.Width = m;
                     int x = Faktorialis(sor) / (Faktorialis(oszlop) * Faktorialis(sor-oszlop));
