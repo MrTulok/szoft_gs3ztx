@@ -13,7 +13,7 @@ namespace eloadas1
             {
                 for (int oszlop = 0; oszlop < 10; oszlop++)
                 {
-                    SajátGomb sajátGomb = new SajátGomb();
+                    SajátGomb sajátGomb = new();
                     Controls.Add(sajátGomb);
 
                     sajátGomb.Top = SajátGomb.Méret * sor;
