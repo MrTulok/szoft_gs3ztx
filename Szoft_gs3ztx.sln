@@ -13,11 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas", "gyakorlas\gyak
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eloadas1", "eloadas1\eloadas1.csproj", "{1C2FC4E3-FD59-4D20-9A9B-B7906B21ECF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillogoGomb", "VillogoGomb\VillogoGomb.csproj", "{B40E5C26-DF43-4EC4-9DA6-9BAED5AD1E14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VillogoGomb", "VillogoGomb\VillogoGomb.csproj", "{B40E5C26-DF43-4EC4-9DA6-9BAED5AD1E14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzinezoGomb", "SzinezoGomb\SzinezoGomb.csproj", "{AD6C4222-0572-46D1-B45B-804543BF50CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzinezoGomb", "SzinezoGomb\SzinezoGomb.csproj", "{AD6C4222-0572-46D1-B45B-804543BF50CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzámolóGomb", "SzámolóGomb\SzámolóGomb.csproj", "{186BF7F9-3396-49B6-A848-F5A4001E4165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzámolóGomb", "SzámolóGomb\SzámolóGomb.csproj", "{186BF7F9-3396-49B6-A848-F5A4001E4165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gombok", "Gombok\Gombok.csproj", "{77853AAF-6ADB-4E99-8CB1-E721546698CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Háromszög", "Háromszög\Háromszög.csproj", "{D1330F73-0989-4118-A185-3B91930C16E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{186BF7F9-3396-49B6-A848-F5A4001E4165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{186BF7F9-3396-49B6-A848-F5A4001E4165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{186BF7F9-3396-49B6-A848-F5A4001E4165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77853AAF-6ADB-4E99-8CB1-E721546698CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77853AAF-6ADB-4E99-8CB1-E721546698CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77853AAF-6ADB-4E99-8CB1-E721546698CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77853AAF-6ADB-4E99-8CB1-E721546698CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1330F73-0989-4118-A185-3B91930C16E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1330F73-0989-4118-A185-3B91930C16E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1330F73-0989-4118-A185-3B91930C16E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1330F73-0989-4118-A185-3B91930C16E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
